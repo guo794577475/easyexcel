@@ -22,9 +22,6 @@ class ExcelApplicationTests {
                 return o1.compareTo(o2);
             }
         });
-        /*for (String s : strings) {
-            System.out.println(s);
-        }*/
         MyLamda myLamda = s -> System.out.println(s + "yy");
 //        myLamda = new MyLambdaImpl();
         myLamda.testLambda("testLambda");
